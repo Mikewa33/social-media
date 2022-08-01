@@ -1,0 +1,2 @@
+class FacebookPost < ApplicationRecord
+end

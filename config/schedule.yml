@@ -1,0 +1,16 @@
+# config/schedule.yml
+
+facebook_job:
+  cron: "* * * * *"
+  class: "FacebookWorker"
+  queue: background
+
+instagram_job:
+  cron: "* * * * *"
+  class: "InstagramWorker"
+  queue: background
+
+twitter_job:
+  cron: "* * * * *"
+  class: "TwitterWorker"
+  queue: background
